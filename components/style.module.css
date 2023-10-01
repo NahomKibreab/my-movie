@@ -1,0 +1,25 @@
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background: blue;
+  padding: 8px;
+}
+
+.nav div {
+  border: 1px solid white;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 0.25rem;
+}
+
+.nav div:hover {
+  background: rgb(109, 14, 14);
+}
+
+.movieList {
+  background: red;
+  border: 1px solid white;
+  margin: 8px;
+  width: 310px;
+}
